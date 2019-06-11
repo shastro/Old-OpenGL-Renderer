@@ -1,0 +1,28 @@
+{
+    "scene": "fps",
+    "models": [
+        {
+            "name": "shipbase",
+            "tag": 1,
+            "pos": {"x": 0, "y": 0, "z": 0},
+            "material": "normal"
+        }
+    ],
+    "window": {
+        "name": "fps",
+        "width": 1000,
+        "height": 1000,
+        "resizeable": "false"
+    },
+    "camera": {
+        "pos": {"x": 0, "y": 0, "z": -1},
+        "target": {"x": 0, "y": 0, "z": 0}
+    },
+
+    "paths":{
+        "materials": "./assets/materials",
+        "models"   : "./assets/models"
+    }
+
+
+}
